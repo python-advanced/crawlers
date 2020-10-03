@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
 
+
 data = []
 r = requests.get('http://chart.capital.com.tw/Chart/TWII/TAIEX11.aspx')
 if r.status_code == requests.codes.ok:
